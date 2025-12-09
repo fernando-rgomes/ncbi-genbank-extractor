@@ -1,0 +1,40 @@
+# Ignorar ambiente virtual
+venv/
+.env
+
+# Arquivos de cache do Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Logs e arquivos temporários
+*.log
+*.pot
+*.tmp
+*.swp
+
+# Configurações locais
+*.sqlite3
+*.db
+.DS_Store
+Thumbs.db
+
+# Arquivos de IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Testes e cobertura
+.coverage
+htmlcov/
+.tox/
+nosetests.xml
+coverage.xml
+
+# Build e distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
